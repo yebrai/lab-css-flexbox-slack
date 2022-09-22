@@ -8,3 +8,87 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+nav, header {
+    background-color: #540B51;
+}
+
+main {
+       background-color: #F3EAE2;    
+        
+}
+header div h1{
+    color: #F3EAE2;
+    font-size: 7rem;
+    justify-items: center;
+
+}
+header div p{
+    font-size: 2rem;
+    color: #F3EAE2;
+    justify-items: center;
+}
+
+#singUp-buttons button{
+    display: flex;
+    font-size: 3rem;
+    font-weight: 700;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    
+}
+
+.google-button {
+    background-color: #2E71A6;
+}
+
+#singUp-buttons img{
+   
+}
+@media (max-width:  768px) {
+    html {
+        width: 55vh;
+        height: 100vh;
+    }
+
+    header div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        flex-direction: column;
+
+    }
+
+    }
+    .nav-div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+        
+    }
+
+
+
+    .team-section {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .subfooter {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    
+    }
+
+
+    
+
+        
+

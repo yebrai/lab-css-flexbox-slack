@@ -20,7 +20,7 @@ main {
 header div h1{
     color: #F3EAE2;
     font-size: 7rem;
-    justify-items: center;
+
 
 }
 header div p{
@@ -42,15 +42,35 @@ header div p{
 .google-button {
     background-color: #2E71A6;
 }
-
-#singUp-buttons img{
-   
+.div-img-main {
+    display: flex;
+    max-width: 100%;
 }
+.div-img-main img{
+        
+    width: 100%;
+}
+
+.header-main p {
+    font-size: 3rem;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:  0 auto;
+    gap: 15px;
+}
+   
+
 @media (max-width:  768px) {
     html {
         width: 55vh;
         height: 100vh;
     }
+    
+
 
     header div {
         display: flex;

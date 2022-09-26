@@ -13,8 +13,9 @@ nav, header {
     background-color: #540B51;
 }
 
-main {
-       background-color: #F3EAE2;    
+.firsts-section {
+       background-color: #F3EAE2;
+       font-size: 3rem;    
         
 }
 header div h1{
@@ -54,15 +55,19 @@ header div p{
 .header-main p {
     font-size: 3rem;
 }
-
 .top-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin:  0 auto;
-    gap: 15px;
+    align-items: center;
+    
 }
-   
+
+.top-text h1 {
+    margin: 0 auto;
+
+}
 
 @media (max-width:  768px) {
     html {
